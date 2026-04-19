@@ -4,7 +4,7 @@ set -Eeuo pipefail
 PANEL_DIR="${PANEL_DIR:-/var/www/pterodactyl}"
 WEB_USER="${WEB_USER:-www-data}"
 BRANCH="${BRANCH:-main}"
-REPO_URL="${REPO_URL:-https://github.com/MoyhazXcodr/hazsly-one-full.git}"
+REPO_URL="${REPO_URL:-https://github.com/MoyhazXcodr/Theme-hazsly-vip.git}"
 TMP_ROOT="${TMPDIR:-/tmp}/hazsly-one-install-$$"
 BACKUP_ROOT="$PANEL_DIR/.hazsly-one"
 TIMESTAMP="$(date +%F-%H%M%S)"
